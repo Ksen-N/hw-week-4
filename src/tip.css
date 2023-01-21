@@ -1,0 +1,18 @@
+.Tip h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .Tip .quote {
+    font-family: "Amita", cursive;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .Tip .author {
+    font-family: "Tangerine", cursive;
+    font-size: 22px;
+    font-weight: 600;
+    float: right;
+  }
+  

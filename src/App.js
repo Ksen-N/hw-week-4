@@ -19,7 +19,7 @@ export default function App() {
       <div className="contact">
         <p>
           {" "}
-          <a href="" target="_blank">
+          <a href="starlit-bombolone-6e48f9" target="_blank">
             Open-source code
           </a>
           , by Kseniia Noskova, 2023{" "}

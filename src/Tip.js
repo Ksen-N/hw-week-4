@@ -6,7 +6,7 @@ export default function Tip() {
     <div className="Tip">
       <h3>Quote of the Day</h3>
       <p className="quote">Dress warmly- be normally</p>
-      <a className="author">Mysterious Anonymous</a>
+      <p className="author">Mysterious Anonymous</p>
     </div>
   );
 }

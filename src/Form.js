@@ -79,11 +79,11 @@ export default function Form() {
         <div className="float-left">
           <span className="temp d-temp">{weather.temp}</span>
           <span className="units">
-            <a href="/" className="active c-link">
+            <a href="#" className="active c-link">
               °C
             </a>{" "}
             |
-            <a className="f-link" href="/">
+            <a className="f-link" href="#">
               °F
             </a>
           </span>

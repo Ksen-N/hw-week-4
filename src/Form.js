@@ -6,6 +6,7 @@ import Tip from "./Tip.js";
 export default function Form() {
   let [city, setCity] = useState("Bhilai");
   let [load, setLoad] = useState(false);
+  let defCity = "Bhilai";
   const [weather, setWeather] = useState({});
   function Weather(response) {
     setLoad(true);
@@ -105,7 +106,7 @@ export default function Form() {
     );
   } else {
     let APIkey = "a72a4953b235d5f5962e44c508b72c94";
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${weather.city}&appid=${APIkey}&units=metric`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${defCity}&appid=${APIkey}&units=metric`;
     axios.get(url).then(Weather);
     return (
       <div className="Form">

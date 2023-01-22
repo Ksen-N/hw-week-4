@@ -18,7 +18,7 @@ export default function App() {
       <div className="contact">
         <p>
           {" "}
-          <a href="starlit-bombolone-6e48f9" target="_blank">
+          <a href="https://github.com/Ksen-N/hw-week-4" rel="noreferrer" target="_blank">
             Open-source code
           </a>
           , by Kseniia Noskova, 2023{" "}
